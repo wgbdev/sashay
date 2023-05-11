@@ -1,4 +1,4 @@
-module github.com/rgalanakis/sashay
+module github.com/wgbdev/sashay
 
 go 1.19
 

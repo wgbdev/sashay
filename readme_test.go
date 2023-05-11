@@ -2,7 +2,7 @@ package sashay_test
 
 import (
 	"fmt"
-	"github.com/rgalanakis/sashay"
+	"github.com/wgbdev/sashay"
 )
 
 func Example_readme() {
