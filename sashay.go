@@ -46,6 +46,11 @@ func New(title, description, version string) *Sashay {
 		dataTypesForKinds:  make(map[reflect.Kind]dataTypeDef),
 	}
 
+
+fmt.Printf("\r\nThis is a test to see if it prints....\r\n")
+
+
+
 	for _, v := range BuiltinDataTypeValues {
 		sw.DefineDataType(v, BuiltinDataTyperFor(v))
 	}
