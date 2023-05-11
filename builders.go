@@ -63,11 +63,16 @@ func (b *baseBuilder) writeDataType(indent int, f Field) {
 func (b *baseBuilder) writeStructSchema(indent int, f Field, recurse func(Field) bool) {
 	b.writeLn(indent, "type: object")
 	writeProps := b.writeOnce(indent, "properties:")
+
 	for _, field := range enumerateStructFields(f) {
 		fieldJSONName := jsonName(field.StructField)
-		if fieldJSONName == "" {
-			continue
+
+		if field.Kind != reflect.Struct && fieldJSONName == "" {
+			if fieldJSONName == "" {
+				continue
+			}
 		}
+
 		writeProps()
 		if field.Kind == reflect.Struct {
 			b.writeLn(indent+1, "%s:", fieldJSONName)

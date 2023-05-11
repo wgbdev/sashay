@@ -366,10 +366,6 @@ func ExampleSashay_customDataType() {
 
 func ExampleSelectMap() {
 
-
-log.Printf("\r\n\tXXX\tWe are here....\r\n")
-
-
 	sw := sashay.New("t", "d", "v")
 	// We can remove "/internal" routes
 	sw.Add(sashay.NewOperation("GET", "/internal/users", "", nil, nil, nil))
