@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wgbdev/sashay"
+	"github.com/rgalanakis/sashay"
 )
 
 func ExampleSashay_basicParameters() {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/wgbdev/sashay"
+	"github.com/rgalanakis/sashay"
 )
 
 func ExampleSimpleDataTyper() {

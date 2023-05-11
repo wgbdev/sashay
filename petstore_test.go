@@ -2,7 +2,7 @@ package sashay_test
 
 import (
 	"fmt"
-	"github.com/wgbdev/sashay"
+	"github.com/rgalanakis/sashay"
 	"io/ioutil"
 	"net/http"
 	"os"
