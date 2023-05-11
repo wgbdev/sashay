@@ -47,7 +47,7 @@ func New(title, description, version string) *Sashay {
 	}
 
 
-fmt.Printf("\r\nThis is a test to see if it prints....\r\n")
+fmt.Printf("\r\n\tXXXXX\tYYYYYYY\tThis is a test to see if it prints....\r\n")
 
 
 
