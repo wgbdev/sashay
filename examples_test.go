@@ -3,6 +3,7 @@ package sashay_test
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"strings"
 	"time"
@@ -364,6 +365,11 @@ func ExampleSashay_customDataType() {
 }
 
 func ExampleSelectMap() {
+
+
+log.Printf("We are here....\r\n")
+
+
 	sw := sashay.New("t", "d", "v")
 	// We can remove "/internal" routes
 	sw.Add(sashay.NewOperation("GET", "/internal/users", "", nil, nil, nil))
