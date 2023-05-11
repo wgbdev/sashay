@@ -367,7 +367,7 @@ func ExampleSashay_customDataType() {
 func ExampleSelectMap() {
 
 
-log.Printf("We are here....\r\n")
+log.Printf("\r\n\tXXX\tWe are here....\r\n")
 
 
 	sw := sashay.New("t", "d", "v")

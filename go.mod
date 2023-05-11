@@ -14,3 +14,5 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/rgalanakis/sashay => github.com/wgbdev/sashay v0.0.0-20230511184355-6612d31c5910
